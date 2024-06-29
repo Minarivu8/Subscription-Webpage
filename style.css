@@ -1,0 +1,50 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    font-family: "Gabarito", sans-serif;
+
+}
+.container{
+    padding:10px;
+    margin:110px;
+}
+.head{
+    background-color: #F786C2;
+    padding:10px;
+    display:flex;
+    justify-content: center;
+
+}
+.scheme{
+    margin-top:30px;
+    display:flex;
+    justify-content: space-around;
+gap:20px;
+}
+
+.scheme__one{
+    background-color: black;
+    color:white;
+    padding:20px;
+    border-radius: 10px;
+    width:170px;
+    height:230px;
+}
+.scheme__one h2{
+    text-align:center;
+}
+.scheme__one__benefits{
+    border:solid white 2px;
+    border-radius: 10px;
+    padding:10px;
+    margin-top:10px;
+    font-size: 14px;
+}
+.scheme__one__status{
+    margin:7px;
+}
+.scheme__one p{
+    margin-top:2px;
+}
